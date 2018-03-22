@@ -97,3 +97,8 @@ get_prop(netmgrd, hwservicemanager_prop)
 hwbinder_use(netmgrd)
 binder_call(netmgrd, netd)
 allow netmgrd system_net_netd_hwservice:hwservice_manager find;
+
+#Allow diag logging
+userdebug_or_eng(`
+  r_dir_file(netmgrd, sysfs_diag)
+')
