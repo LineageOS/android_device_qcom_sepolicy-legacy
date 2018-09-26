@@ -19,6 +19,8 @@ userdebug_or_eng(`
   set_prop(mm-qcamerad, camera_prop)
 ')
 
+allow mm-qcamerad platform_app:fd use;
+
 #Communicate with user land process through domain socket
 #allow mm-qcamerad camera_socket:sock_file { create unlink write };
 allow mm-qcamerad camera_socket:dir w_dir_perms;
