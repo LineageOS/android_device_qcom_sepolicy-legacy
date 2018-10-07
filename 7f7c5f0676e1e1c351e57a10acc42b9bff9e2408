@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50ed803b_e777cf85",
+        "filename": "common/mm-qcamerad.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-10-07T11:38:32Z",
+      "side": 1,
+      "message": "Add it here instead",
+      "revId": "7f7c5f0676e1e1c351e57a10acc42b9bff9e2408",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
