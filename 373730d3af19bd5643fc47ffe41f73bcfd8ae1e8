@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "724b4253_9ec46286",
+        "filename": "common/hal_sensors.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-11-21T11:02:09Z",
+      "side": 1,
+      "message": "There\u0027s a macro for this: https://github.com/LineageOS/android_system_sepolicy/blob/lineage-16.0/public/te_macros#L290-L293",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 63
+      },
+      "revId": "373730d3af19bd5643fc47ffe41f73bcfd8ae1e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
