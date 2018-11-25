@@ -338,3 +338,6 @@ type kgsl_debugfs, debugfs_type, fs_type;
 
 #sysfs emmc dload type
 type sysfs_emmc_dload, sysfs_type, fs_type;
+
+# /proc/sys/kernel/boot_reason, or similar, used by many init extensions
+type proc_boot_reason, fs_type, proc_type;

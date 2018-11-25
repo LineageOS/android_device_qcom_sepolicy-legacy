@@ -58,3 +58,6 @@ allow init rawdump_block_device:blk_file setattr;
 
 #cpu.rt_period_us and _runtime_us need this
 allow init cgroup:file create;
+
+# allow init extensions to read the boot_reason alarm file
+allow init proc_boot_reason:file r_file_perms;
