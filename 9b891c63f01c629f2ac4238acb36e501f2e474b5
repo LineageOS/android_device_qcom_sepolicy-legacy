@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "14253ccc_0900ed6b",
+        "filename": "common/netmgrd.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2019-01-16T21:26:11Z",
+      "side": 1,
+      "message": "Could this have any negative side effects of potential denials on other SoCs? You are restricting generic sysfs access to just sysfs_net",
+      "range": {
+        "startLine": 52,
+        "startChar": 25,
+        "endLine": 52,
+        "endChar": 34
+      },
+      "revId": "9b891c63f01c629f2ac4238acb36e501f2e474b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
