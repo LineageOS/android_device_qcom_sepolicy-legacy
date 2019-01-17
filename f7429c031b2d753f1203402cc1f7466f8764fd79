@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5386346_f2dd7884",
+        "filename": "private/vendor_init.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2019-01-17T13:21:49Z",
+      "side": 1,
+      "message": "Is this really needed just for a folder creation?",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 56
+      },
+      "revId": "f7429c031b2d753f1203402cc1f7466f8764fd79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
