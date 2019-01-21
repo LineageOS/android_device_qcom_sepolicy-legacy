@@ -12,3 +12,8 @@ wakelock_use(vold)
 allow vold swap_block_device:blk_file r_file_perms;
 
 allow vold persist_file:dir r_dir_perms;
+
+# Allow loading keymaster firmware
+allow vold firmware_file:dir search;
+allow vold firmware_file:file r_file_perms;
+allow vold firmware_file:lnk_file read;
