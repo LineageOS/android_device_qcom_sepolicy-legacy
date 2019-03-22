@@ -25,4 +25,8 @@ recovery_only(`
     set_prop(recovery, ffs_prop)
     get_prop(recovery, sys_usb_controller_prop)
     get_prop(recovery, boot_mode_prop)
+
+    # Read time
+    r_dir_file(recovery, time_data_file)
+    r_dir_file(recovery, persist_time_file)
 ')
