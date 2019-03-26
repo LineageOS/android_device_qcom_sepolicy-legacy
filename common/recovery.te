@@ -25,4 +25,5 @@ recovery_only(`
     set_prop(recovery, ffs_prop)
     get_prop(recovery, sys_usb_controller_prop)
     get_prop(recovery, boot_mode_prop)
+    allow recovery sysfs_batteryinfo:dir search;
 ')
